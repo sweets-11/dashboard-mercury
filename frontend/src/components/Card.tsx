@@ -43,7 +43,7 @@ const CardBox = () => {
 
             <CardHeader className="flex flex-col items-stretch space-y-0 p-0 sm:flex-row">
                 <div className="flex flex-1 flex-col justify-center gap-1 px-6 py-5 sm:py-6">
-                    <CardTitle className='text-md'>Accounts</CardTitle>
+                    <CardTitle className='text-2xl'>Accounts</CardTitle>
 
                 </div>
             </CardHeader>
@@ -55,7 +55,7 @@ const CardBox = () => {
                         {financialSummary.map((des) => {
                             return (
                                 <TableRow>
-                                    <TableCell className="text-lg font-medium w-96 cursor-pointer">{des.type}</TableCell>
+                                    <TableCell className="text-md font-medium w-96 cursor-pointer">{des.type}</TableCell>
                                     <TableCell className="text-md text-right">{`${des.amount}`}</TableCell>
                                 </TableRow>
 
